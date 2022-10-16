@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite   thread-count="2"  parallel="tests" name="RegressionSuite">
+<listeners>
+<listener class-name="com.agilecrmauto.TestListner"></listener>
+</listeners>
+  <test  name="Test">
+    <classes>
+    
+      <class name="com.agilecrmauto.Testcase2"/>
+      <class name="com.agilecrmauto.CompanyTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionSuite -->
