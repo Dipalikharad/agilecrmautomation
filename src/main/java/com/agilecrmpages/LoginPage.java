@@ -32,7 +32,7 @@ public class LoginPage  extends BaseClass {
 		//waitForElementToBeClickable(driver.findElement(By.xpath("//li[@id='fat-menu']/descendant::a/span/img\"),\"click onimage")));
 		menu.click();
 		 logout.click();
-		System.out.println("Logout Sucessfully");
+	
 	}
 	
 	public void forgot()
